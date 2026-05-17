@@ -1,0 +1,14 @@
+# SSH private key
+sd-forge-key.pem
+
+# Terraform state (contains plaintext SSH private key)
+terraform.tfstate
+terraform.tfstate.backup
+terraform.tfstate.*.backup
+
+# Personal variables (IP address, bucket name)
+terraform.tfvars
+
+# Terraform working directory
+.terraform/
+*.tfplan
